@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: white; 
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+p {
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 12x;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    color: white;
+    background: #3598DB;   
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 20px;
+}
+
+a:last-of-type {
+    list-style: none;
+    color: darkgray;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.forgot {
+    font-size: 10px;
+    transform: translate(75px, -30px)
+} 
+
